@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function fetchWeatherAndLocation(lat, lon) {
-        const apiKey = 'e5ff05f28245587b9e475f1b56ec8807'; 
+        const apiKey = 'api key removed for privacy on github'; 
         console.log("Fetching weather...");
         fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`)
             .then(response => {
