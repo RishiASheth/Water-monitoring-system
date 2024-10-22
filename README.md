@@ -42,11 +42,6 @@ The **Smart Water Management** system is designed to monitor water usage in real
 2. Open a browser and connect to the ESP32’s local IP to access the real-time water usage dashboard.
 3. Monitor the water flow rate and total consumption from any device connected to the local network.
 
-## Code Structure
-- **/src**: Contains the ESP32 code.
-- **/web**: HTML and JavaScript files for the web-based interface.
-- **/docs**: Documentation on setup and other details.
-
 ## Future Enhancements
 - **Alert System**: Add notifications or alerts for abnormal water usage or potential leaks.
 - **Data Logging**: Store historical data to analyze water usage trends over time.
